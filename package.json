@@ -1,0 +1,27 @@
+{
+  "name": "not-invented-here",
+  "version": "1.0.0",
+  "description": "Yolo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ironsquishy/not-invented-here.git"
+  },
+  "author": "yoloteam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ironsquishy/not-invented-here/issues"
+  },
+  "homepage": "https://github.com/ironsquishy/not-invented-here#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "webpack": "^1.13.3"
+  }
+}
