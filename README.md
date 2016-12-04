@@ -8,5 +8,5 @@ Assumes that `docker`, `NodeJs` are installed.
 3. Check that `ironsquishy/web-app-test` container is running.
 4. GL HF
 
-
-Notes: After everything is setup appropriately docker machine will update it's system folders automatically from the host system working project. When changes are made to working directory.
+### Notes
+After everything is setup appropriately docker machine will update it's system folders automatically from the host system working project. When changes are made to working directory.
