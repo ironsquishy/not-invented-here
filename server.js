@@ -10,4 +10,5 @@ server.get('/', function(req, res){
    res.sendfile(path.join(__dirname + '/app/index.html'))
 });
 console.log('Starting server! Listen on ' + port);
+
 server.listen(port);
