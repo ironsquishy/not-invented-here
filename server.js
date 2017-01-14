@@ -2,11 +2,17 @@
 var express = require('express');
 var server = express();
 var path = require('path');
+var mongodb = require('mongodb').MongoClient;
+var assert = require('assert');
+
 
 
 const port = 3000;
-server.use(express.static('app'));
-server.get('/', function(req, res){
+server.use('/app', express.static(__dirname + '/app'));
+server.use('/scripts', express.static(__dirname + '/node_modules'));
+server.use('/node_modules', express.static(__dirname + '/node_modules'));
+
+server.get('*', function(req, res){
    res.sendfile(path.join(__dirname + '/app/index.html'))
 });
 console.log('Starting server! Listen on ' + port);
